@@ -22,7 +22,7 @@ public class BingoGame {
         // ビンゴ開始
         for (int i = 0; i < r.randomNum.size(); i++) {
             bingoNum = r.ballThrow(i);      // i回目の数字を代入
-            System.out.println(i+1 + "回目の数字は「" + bingoNum + "」！");
+            System.out.println((i+1) + "回目の数字は「" + bingoNum + "」！");
             for (int j = 0; j < bingoList.length; j++) {
                 bingoList[j].hitNumber(bingoNum);
                 bingoList[j].judgeBingo();

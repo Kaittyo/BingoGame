@@ -16,7 +16,7 @@ public class Randomizer {
     // メソッド
     // 玉を出す
     public int ballThrow(int num) {
-        this.bingoNum = randomNum.get(num);
-        return bingoNum;
+        this.bingoNum = this.randomNum.get(num);
+        return this.bingoNum;
     }
 }
